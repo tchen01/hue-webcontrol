@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Hue Online</title>
+<meta name="description" content="manipulate Phillips hue from the web">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width user-scalable=no">
+
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/hue.js"></script>
+</head>
+<body>
+
+<div class='button'>
+	<form class='rgb_control'>
+		<div>Light 1</div>
+		<div>r:</div>
+		<input class="slider" type="range" name="red" value="0" min="0" max="255"><br>
+		<div>g:</div>
+		<input class="slider" type="range" name="green" value="0" min="0" max="255"><br>
+		<div>b:</div>
+		<input class="slider" type="range" name="blue" value="0" min="0" max="255">
+	</form>
+
+	<form class='rgb_control'>
+		<div>Light 2</div>
+		<div>r:</div>
+		<input class="slider" type="range" name="red" value="0" min="0" max="255"><br>
+		<div>g:</div>
+		<input class="slider" type="range" name="green" value="0" min="0" max="255"><br>
+		<div>b:</div>
+		<input class="slider" type="range" name="blue" value="0" min="0" max="255">
+	</form>
+
+	<form class='rgb_control'>
+		<div>Light 3</div>
+		<div>r:</div>
+		<input class="slider" type="range" name="red" value="0" min="0" max="255"><br>
+		<div>g:</div>
+		<input class="slider" type="range" name="green" value="0" min="0" max="255"><br>
+		<div>b:</div>
+		<input class="slider" type="range" name="blue" value="0" min="0" max="255">
+	</form>
+	
+	<div class="send_state">Send State</div>
+</div>
+</body>
+<script src="js/bg.js"></script>
+</html>
